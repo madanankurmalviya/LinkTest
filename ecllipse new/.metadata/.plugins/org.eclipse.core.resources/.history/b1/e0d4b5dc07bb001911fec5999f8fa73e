@@ -1,0 +1,54 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+
+public class CheckStatus 
+{
+	public static void main(String[] args) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+		Workbook wb = WorkbookFactory.create(fis);
+		Sheet sht = wb.getSheet("Sheet1"); 
+		int rwcount	= sht.getLastRowNum();
+		int clcount = sht.getRow(1).getLastCellNum();
+		for(int row = 1; row<= rwcount ;row++)
+		{
+			Cell cell = sht.getRow(row).getCell(1);
+			String celltext="";
+			if(cell.getCellType()==CellType.STRING)
+			{
+				celltext = cell.getStringCellValue();
+			}
+			else if (cell.getCellType()==CellType.NUMERIC)
+			{
+				celltext = String.valueOf(cell.getNumericCellValue());
+			}
+			else if (cell.getCellType()==CellType.BLANK)
+			{
+				celltext =""; 
+			}
+			
+			//Initializing the check purpose
+			if(Double.parseDouble(celltext)>=18)
+			{
+				sht.getRow(row).getCell(2).setCellValue("Maximum");
+			}
+			else
+			{
+				
+			}
+		}
+		
+	}
+
+}

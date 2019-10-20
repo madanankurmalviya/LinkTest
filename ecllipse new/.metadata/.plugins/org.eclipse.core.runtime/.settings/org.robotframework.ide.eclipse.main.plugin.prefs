@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+red.activeRuntime=
+red.activeRuntimeExec=
+red.otherRuntimes=D\:\\soft\\red
+red.otherRuntimesExecs=
+red.problem.category.RUNTIME_ERROR=WARNING
+red.tasks.enabled=true
+red.tasks.priorities=HIGH;NORMAL
+red.tasks.tags=FIXME;TODO

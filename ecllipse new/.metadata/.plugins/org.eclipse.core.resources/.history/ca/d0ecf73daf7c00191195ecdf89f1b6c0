@@ -1,0 +1,20 @@
+package JavaPrograms;
+
+public class PyramidRev 
+{
+
+	public static void main(String[] args)
+	{
+		int num=10;
+		for(int a = num ; a>=1 ; a--)
+		{
+			for(int b = 1 ; b<=num ; b++)
+			{
+				System.out.print("*  ");
+			}
+			System.out.println( );
+		}
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+com\railway\generic\BasePage.class
+com\railway\generic\BaseTest.class
+com\railway\testCases\LoginPage.class
+com\railway\generic\ExcelSheetData.class
+com\railway\generic\GenericUtils.class
+com\railway\generic\AutoConstant.class

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.project.editor.activePage.RobotProjectONe">
+		<item value="LibrariesProjectConfigurationEditorPart" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./ProjectOne/TestOne/TestFirst.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.project.editor.activePage.ProjectOne">
+		<item value="GeneralProjectConfigurationEditorPart" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./ProjectOne/TestTwo/KeywordsProgLogin.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./ProjectOne/TestTwo/ProgTwo.robot">
+		<item value="" key="activePage"/>
+	</section>
+</section>

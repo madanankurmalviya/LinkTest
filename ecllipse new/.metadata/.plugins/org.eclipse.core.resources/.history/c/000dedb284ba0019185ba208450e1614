@@ -1,0 +1,18 @@
+package StringExmp;
+
+public class occHashMap
+{
+	static private occCount(String str)
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		String str = "Ankkurr";
+		occCount(str);
+		{
+			return occCount;
+		}
+	}
+
+}

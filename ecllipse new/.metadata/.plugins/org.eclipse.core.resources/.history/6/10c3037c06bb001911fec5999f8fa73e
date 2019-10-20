@@ -1,0 +1,43 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+
+public class CheckStatus 
+{
+	public static void main(String[] args) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+		Workbook wb = WorkbookFactory.create(fis);
+		Sheet sht = wb.getSheet("Sheet1"); 
+		int rwcount	= sht.getLastRowNum();
+		int clcount = sht.getRow(1).getLastCellNum();
+		for(int row = 1; row<= rwcount ;row++)
+		{
+			Cell cell = sht.getRow(row).getCell(1);
+			String celltext="";
+			if(cell.getCellType()==Cell.CELL_TYPE_STRING)
+			{
+				celltext = cell.getStringCellValue();
+			}
+			else if (cell.getCellType()==cell.CELL_TYPE_NUMERIC)
+			{
+				celltext = String.valueOf(cell.getNumericCellValue());
+			}
+			else if (cell.getCellType()==cell.CELL_TYPE_BLANK)
+			{
+				
+			}
+		}
+		
+	}
+
+}

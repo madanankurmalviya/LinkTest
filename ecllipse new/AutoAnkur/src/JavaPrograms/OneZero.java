@@ -1,0 +1,27 @@
+package JavaPrograms;
+
+public class OneZero 
+{
+
+	public static void main(String[] args)
+	{
+		for(int row = 5; row>=1; row--)
+		{    
+			int t=0;
+			for(int col=1;col<=row-1;col++)
+			{
+				System.out.print(" ");
+			    t++;
+			}
+			for(int col = 5 ; col > t ; col--)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
+
+

@@ -1,0 +1,14 @@
+package StringExmp;
+
+public class occExmp
+{
+	int count = 0;
+	String str = "Om Ganeshay Nama";
+	
+	public static void main(String[]args)
+	{
+		char[] strArry = str.toCharArray();
+		System.out.println(+strArry);
+	}
+
+}

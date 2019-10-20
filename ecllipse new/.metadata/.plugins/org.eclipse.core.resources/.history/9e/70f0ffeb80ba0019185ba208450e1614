@@ -1,0 +1,21 @@
+package StringExmp;
+
+import java.util.HashMap;
+
+public class HashMapCountSecond 
+{
+	static String str = "Programming";
+	public static void main(String[] args) {
+		
+		HashMap<Character, Integer> map = new HashMap<>();
+		for (char ch : str.toCharArray()) {
+			if (map.containsKey(ch)) {
+				int val = map.get(ch);
+				map.put(ch, val + 1);
+			} else {
+				map.put(ch, 1);
+			}
+		}
+		System.out.println(map);
+	}
+}

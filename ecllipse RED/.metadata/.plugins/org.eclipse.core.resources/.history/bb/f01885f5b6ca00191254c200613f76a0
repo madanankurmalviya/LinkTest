@@ -1,0 +1,21 @@
+***Settings***
+Library   SeleniumLibrary
+
+*** Test Cases ***
+KeywordUrlLoginTest
+     
+    LoginKW
+    Close Browser
+    
+*** Keywords ***
+LoginKW
+    Open Browser    ${url}     ff
+    Click Button    text=Sign in   
+    Click Button    text=Add account  
+    Click Button    text=Use another account     
+    Click Button    text=Create account     
+    Click Element    text=For myself    
+
+*** Variables ***
+    
+${url}    https://www.google.com/?authuser=1

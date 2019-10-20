@@ -1,0 +1,12 @@
+***Settings***
+Library   SeleniumLibrary
+
+*** Test Cases ***
+
+*** Keywords ***
+LoginKW
+    Open Browser    ${url}    
+
+*** Variables ***
+    
+${url}    https://www.google.com

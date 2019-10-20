@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class FebonicaSeriesRecursive 
+{
+	Scanner in = new Scanner(System.in);
+	System.out.print("Enter the desired number");
+	int num = in.nextInt();
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

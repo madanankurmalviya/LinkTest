@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org//testing-1.0.dtd">
+<suite name="Suite1" verbose="1">
+	<test name ="This is Title page test">
+		<classes>'
+			<class name = "com.Test.basicsTest"/>	
+			<class name ="com.Test.GoogleTest"/> 	
+		</classes>
+	</test>
+</suite>

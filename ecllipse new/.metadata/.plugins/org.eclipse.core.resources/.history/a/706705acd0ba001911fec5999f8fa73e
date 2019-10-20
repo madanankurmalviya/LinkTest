@@ -1,0 +1,15 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+
+public class CheckStatus 
+{
+	public static void main(String[] args) throws FileNotFoundException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+		
+	}
+
+}

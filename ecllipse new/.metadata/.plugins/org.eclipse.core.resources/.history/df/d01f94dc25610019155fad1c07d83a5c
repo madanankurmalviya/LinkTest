@@ -1,0 +1,11 @@
+package Testing;
+
+public class DragAndDrop1
+{
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver","./DriverAnkur/chromedriver.exe");
+	}
+
+}

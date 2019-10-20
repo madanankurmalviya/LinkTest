@@ -1,0 +1,14 @@
+package Testing;
+
+public class ScrnShtDemo2
+{
+	static
+	{
+		System.setProperty("webdriver.chorme.driver", "./DriverAnkur/chromedriver.exe");
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

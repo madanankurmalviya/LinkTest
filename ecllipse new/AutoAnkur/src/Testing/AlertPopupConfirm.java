@@ -1,0 +1,50 @@
+package Testing;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AlertPopupConfirm 
+{
+		static
+		{
+			System.setProperty("webdriver.chrome.driver", ".//DriverAnkur/chromedriver.exe");
+		}
+		
+
+		public static void main(String[] args) throws InterruptedException 
+		{
+			WebDriver driver = new ChromeDriver();
+			driver.manage().window().maximize();
+			driver.get("E://java/html/POPUP.html");
+			Thread.sleep(1000);
+			driver.findElement(By.id("c")).click();
+			Thread.sleep(1000);
+			Alert alt = driver.switchTo().alert();
+			Thread.sleep(1000);
+			String txt = alt.getText();
+			System.out.println(txt);
+			alt.dismiss();
+			driver.findElement(By.id("p")).click();
+			alt.sendKeys(" Ankur Loves Prabha");
+			Thread.sleep(2000);
+			alt.accept();
+			Thread.sleep(1000);
+			
+			JavascriptExecutor je = (JavascriptExecutor) driver;
+			Thread.sleep(1000);
+			for(int a=0;a<3;a++)
+			{
+				String scrolldown = "window.scrollBy(0,100)";
+				je.executeScript(scrolldown);
+				Thread.sleep(50);
+			}
+			driver.close();
+			
+			
+			
+		}
+
+}

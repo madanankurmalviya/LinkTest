@@ -1,0 +1,19 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.ss.usermodel.*;
+
+
+public class CompareTwoColAdd 
+{
+
+	public static void main(String[] args) throws FileNotFoundException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+		Workbook wb=new WorkbookFactory.create(fis);
+		
+	}
+
+}

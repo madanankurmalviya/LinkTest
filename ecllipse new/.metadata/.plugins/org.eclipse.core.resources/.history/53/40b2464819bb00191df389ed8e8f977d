@@ -1,0 +1,67 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.RichTextString;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class CompareTwoColAdd 
+{
+
+	public static void main(String[] args) throws EncryptedDocumentException, IOException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet3.xlsx");
+		Workbook wb=WorkbookFactory.create(fis);
+		Sheet sht = wb.createSheet("Sheet1");
+		int rwcnt = sht.getLastRowNum();
+		for(int a= 0; a<rwcnt;a++)
+		{
+			int clcnt = sht.getRow(a).getLastCellNum();
+			for(int b=0;b<clcnt;b++)
+			{
+				// read data from excel
+				
+				Cell cell = sht.getRow(a).getCell(b);
+				String text="";
+				if(cell.getCellType()==CellType.STRING)
+				{
+					text = cell.getStringCellValue();
+				}
+				if(cell.getCellType()==CellType.NUMERIC) 
+				{
+					text = String.valueOf(cell.getNumericCellValue());
+				}
+				if(cell.getCellType()==CellType.BLANK)
+				{
+					text=" ";
+				}
+				
+				// do mathematical calculations
+				
+				if(Double.parseDouble(text)==123)
+				{
+					sht.getRow(rwcnt+10).getCell(clcnt+10).setCellValue(text);
+				}
+				else
+				{
+					sht.getRow(rwcnt+10).getCell(clcnt+10).setCellValue("ankur");
+				}
+					fis.close();
+					FileOutputStream fos = FileOutputStream("./Excel/Sheet3.xlsx");
+				
+				
+			}
+				
+		}
+		
+		
+		
+	}
+
+}

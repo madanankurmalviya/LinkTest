@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hello Sexy]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32" started-at="2019-06-18T15:43:13Z" finished-at="2019-06-18T15:43:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="32" started-at="2019-06-18T15:43:13Z" finished-at="2019-06-18T15:43:13Z">
+      <class name="tESTNGExample.TestNGExmpOne">
+        <test-method status="PASS" signature="testA()[pri:0, instance:tESTNGExample.TestNGExmpOne@39aeed2f]" name="testA" duration-ms="10" started-at="2019-06-18T15:43:13Z" finished-at="2019-06-18T15:43:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello Sexy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- tESTNGExample.TestNGExmpOne -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

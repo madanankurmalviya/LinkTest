@@ -1,0 +1,18 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+
+public class CheckStatus 
+{
+	public static void main(String[] args) throws FileNotFoundException
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+		Workbook wb = WorkbookFactory.create(fis);
+	}
+
+}

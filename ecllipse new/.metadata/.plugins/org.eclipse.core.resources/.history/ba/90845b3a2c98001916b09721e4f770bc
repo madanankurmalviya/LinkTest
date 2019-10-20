@@ -1,0 +1,14 @@
+package JavaPrograms;
+
+public class AutoBoxingOne 
+{
+	Integer x=10;
+	Integer y=10;
+	
+
+	public static void main(String[] args) 
+	{
+		System.out.println(x==y);
+	}
+
+}

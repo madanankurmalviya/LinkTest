@@ -1,0 +1,13 @@
+package Testing;
+
+public class FlipkartAnkur 
+{
+static
+	{
+		System.setProperty("webdriver.chrome.driver", ".//DriverAnkur/chromedriver.exe");
+	}
+	public static void main(String[] args) 
+		{
+			
+		}
+}

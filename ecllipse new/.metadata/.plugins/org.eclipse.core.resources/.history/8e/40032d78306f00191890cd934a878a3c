@@ -1,0 +1,25 @@
+package Testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AlertTest 
+{
+	static
+	{
+		System.setProperty("webdriver.gecko.driver", "./DriverAnkur/geckodriver.exe");
+	}
+
+	public static void main(String[] args) 
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("http://softwaretestingplace.blogspot.com/2017/03/javascript-alert-test-page.html");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.close();
+	}
+
+}

@@ -1,0 +1,33 @@
+package StringExmp;
+
+import java.util.HashMap;
+
+public class HashMapOcc
+{
+	static void charCount(String inputString)
+	{
+		HashMap<Character, Integer> charCountRef = new HashMap<Character,Integer>();
+		char[] strArray = inputString.toCharArray();
+		for(char a: strArray)
+		{
+			if( charCountRef.containsKey(a))
+			{
+				charCountRef.put(a,charCountRef.get(a));
+			}
+			else
+			{
+				charCountRef.put(a,1);
+			}
+		}
+		
+		
+		
+	}
+
+	public static void main(String[] args) 
+	
+	{
+
+	}
+
+}

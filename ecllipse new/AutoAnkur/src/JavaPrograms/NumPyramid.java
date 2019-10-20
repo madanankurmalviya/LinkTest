@@ -1,0 +1,19 @@
+package JavaPrograms;
+
+public class NumPyramid 
+{
+
+	public static void main(String[] args) 
+	{
+		int num = 10;
+		for(int a = num ; a >=1; a --)
+		{
+			for (int b =1 ; b<=a ; b++)
+			{
+				System.out.print(b+" " );
+			}
+			System.out.println( );
+		}
+	}
+
+}

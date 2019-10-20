@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/poi-4.1.0/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/soft/selenium/sel/new/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/commons-lang3-3.9/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/commons-lang3-3.9/commons-lang3-3.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/commons-lang3-3.9/commons-lang3-3.9-tests.jar"/>
+	<classpathentry kind="lib" path="E:/java/Selenium FOlder/Software/POI/commons-lang3-3.9/commons-lang3-3.9-test-sources.jar"/>
+	<classpathentry kind="lib" path="jar/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="jar/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="jar/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="jar/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="jar/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="jar/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="jar/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="jar/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="jar/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="jar/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="jar/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="jar/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="jar/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="jar/fontbox-2.0.16.jar"/>
+	<classpathentry kind="lib" path="jar/ghost4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="jar/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="jar/jai-imageio-core-1.4.0.jar"/>
+	<classpathentry kind="lib" path="jar/jbig2-imageio-3.0.2.jar"/>
+	<classpathentry kind="lib" path="jar/jboss-logging-3.1.4.GA.jar"/>
+	<classpathentry kind="lib" path="jar/jboss-vfs-3.2.14.Final.jar"/>
+	<classpathentry kind="lib" path="jar/jcl-over-slf4j-1.7.26.jar"/>
+	<classpathentry kind="lib" path="jar/jna-5.3.1.jar"/>
+	<classpathentry kind="lib" path="jar/jul-to-slf4j-1.7.26.jar"/>
+	<classpathentry kind="lib" path="jar/lept4j-1.12.2.jar"/>
+	<classpathentry kind="lib" path="jar/log4j-over-slf4j-1.7.26.jar"/>
+	<classpathentry kind="lib" path="jar/logback-classic-1.2.3.jar"/>
+	<classpathentry kind="lib" path="jar/logback-core-1.2.3.jar"/>
+	<classpathentry kind="lib" path="jar/pdfbox-2.0.16.jar"/>
+	<classpathentry kind="lib" path="jar/pdfbox-debugger-2.0.16.jar"/>
+	<classpathentry kind="lib" path="jar/pdfbox-tools-2.0.16.jar"/>
+	<classpathentry kind="lib" path="jar/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="jar/tess4j-4.4.0.jar"/>
+	<classpathentry kind="lib" path="jar/xmlgraphics-commons-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

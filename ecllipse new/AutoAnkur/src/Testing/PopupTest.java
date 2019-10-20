@@ -1,0 +1,68 @@
+package Testing;
+
+import java.io.File;
+import java.io.IOException;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PopupTest
+{	
+	static
+	{
+		System.setProperty("webdriver.chrome.driver", "./DriverAnkur/chromedriver.exe");
+	}
+
+	public static void main(String[] args) throws InterruptedException, IOException
+	{
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("E://java/html/POPUP.html");
+		Thread.sleep(1000);
+		
+		TakesScreenshot sht = (TakesScreenshot) driver;
+		Thread.sleep(1000);
+		File pic = sht.getScreenshotAs(OutputType.FILE);
+		File dest = new File("./ScreenShots/pic1.jpeg");
+		FileUtils.copyFile(pic,dest);
+		
+		driver.findElement(By.id("p")).click();
+		Thread.sleep(1000);
+		
+		try
+		{
+			Alert alt = driver.switchTo().alert();
+			alt.sendKeys("Hello Guys");
+			String alt1=alt.getText();
+			Thread.sleep(1000);
+			System.out.println(alt1);
+			alt.accept();
+			TakesScreenshot sht1 = (TakesScreenshot) driver;
+			File pic1 = sht1.getScreenshotAs(OutputType.FILE);
+			File dest1 = new File("./ScreenShots/pic2.jpeg");
+			FileUtils.copyFile(pic1,dest1);
+		}
+		catch (Exception e)
+		{
+			System.out.println("Error");
+		}
+		WebElement alt1=driver.findElement(By.id("Demo"));
+		String alt = alt1.getText();
+		System.out.println(alt);
+		TakesScreenshot sht2 = (TakesScreenshot) driver;
+		File pic2 = sht2.getScreenshotAs(OutputType.FILE);
+		File dest2 = new File("./ScreenShots/pic3.jpeg");
+		FileUtils.copyFile(pic2,dest2);
+		
+		Thread.sleep(1000);
+		driver.close();
+		
+		
+	}
+
+}

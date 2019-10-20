@@ -1,0 +1,18 @@
+*** Settings ***
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+TestCasePrint
+    [Documentation]    Hello this first Self Made Prog
+       
+    
+    Open Browser    https://www.freecrm.com/     chrome
+    Sleep    3    
+    Click Button      //span[text()='Log In']
+    Sleep    3    
+    Input Text        name=email           ankur88
+    Input Password    name=password        test123
+    Sleep    3    
+    Click Button      text=Login
+    Log               Its completed         
+    

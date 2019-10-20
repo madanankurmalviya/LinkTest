@@ -1,0 +1,8 @@
+*** Settings ***
+Library    SeleniumLibrary    
+
+*** Test Cases ***
+TestCasePrint
+    [Documentation]    Hello this first Self Made Prog
+    Log                Here is the log file.    
+    

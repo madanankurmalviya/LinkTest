@@ -1,0 +1,40 @@
+package JavaPrograms;
+
+public class BubbleSortOne 
+{
+	
+	public static void main(String[] args) 
+	{
+		int temp;
+		int[] a ={22,1,78,108,5,2,80,50,20};
+		
+		for(int r=1;r<a.length;r++)
+		{
+			
+			for(int c=0;c<a.length-1;c++)
+			{
+				int flag;
+				if(a[c]>a[c+1])
+				{
+					temp=a[c];
+					a[c]=a[c+1];
+					a[c+1]=temp;
+					flag=1;
+				}
+				if(flag==0)
+				{
+					break;
+				}
+				
+			
+			}
+			
+		}
+		for(int r1=0;r1<a.length;r1++)
+		{
+			System.out.print(a[r1]+"  ");
+		}
+		
+	}
+
+}

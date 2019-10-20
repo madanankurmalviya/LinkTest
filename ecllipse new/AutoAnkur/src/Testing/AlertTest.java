@@ -1,0 +1,41 @@
+package Testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AlertTest 
+{
+	static
+	{
+		System.setProperty("webdriver.gecko.driver", "./DriverAnkur/geckodriver.exe");
+	}
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("http://softwaretestingplace.blogspot.com/2017/03/javascript-alert-test-page.html");
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.findElement(By.xpath("//div[@id='content']/button")).click();
+		
+		Alert alert = driver.switchTo().alert();
+		String txt = alert.getText();
+		System.out.println("Here are the text : "+txt);
+		Thread.sleep(1000);
+		alert.accept();
+		System.out.println("Accepted");
+		Thread.sleep(2000);
+		
+//		alert.dismiss();
+//		System.out.println("Alert got dismissed");
+		
+		
+		driver.close();
+	}
+
+}

@@ -1,0 +1,11 @@
+package StringExmp;
+
+public class occHashMap
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

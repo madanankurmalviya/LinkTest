@@ -1,0 +1,26 @@
+package StringExmp;
+
+import java.util.HashMap;
+
+public class occHashMap
+{
+	static void occCount(String str)
+	{
+		HashMap<Integer,Character> map = new HashMap<Integer,Character>();
+		char[] strArray = str.toCharArray();
+		for(char a : strArray)
+		{
+			if(map.containsKey(a))
+			{
+				
+			}
+		}
+		
+	}
+	public static void main(String[] args) 
+	{
+		String str = "Ankkurr";
+		occCount(str);
+	}
+
+}

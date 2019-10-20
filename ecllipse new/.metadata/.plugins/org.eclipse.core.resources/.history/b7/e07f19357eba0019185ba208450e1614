@@ -1,0 +1,19 @@
+package StringExmp;
+
+import java.util.HashMap;
+
+public class HashMapOcc
+{
+	static void charCount()
+	{
+		HashMap<Character, Integer> charCountRef = new HashMap<Character,Integer>();
+		
+	}
+
+	public static void main(String[] args) 
+	
+	{
+
+	}
+
+}

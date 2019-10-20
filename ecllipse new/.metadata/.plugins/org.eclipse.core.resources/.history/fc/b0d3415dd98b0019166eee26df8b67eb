@@ -1,0 +1,29 @@
+package Testing;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class DuplicatesArrayList {
+
+	public static void main(String[] args)
+	{
+		ArrayList <String> al = new ArrayList<String>();
+		al.add("A");
+		al.add("B");
+		al.add("C");
+		al.add("Z");
+		al.add("AA");
+		al.add("A");
+		HashSet <String> alcopy = new HashSet<String>(al);
+		if(al.size()==alcopy.size())
+		{
+			System.out.println("No Duplicates");
+		}
+		else
+		{
+			System.out.println("Duplicates");
+		}
+		
+	}
+
+}

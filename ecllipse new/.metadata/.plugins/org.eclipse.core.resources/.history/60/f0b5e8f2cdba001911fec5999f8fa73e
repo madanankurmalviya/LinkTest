@@ -1,0 +1,12 @@
+package ExcelFetchData;
+
+import java.io.FileInputStream;
+
+public class CheckStatus 
+{
+	public static void main(String[] args)
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx");
+	}
+
+}

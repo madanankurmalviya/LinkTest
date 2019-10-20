@@ -1,0 +1,30 @@
+package ExcelData;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class ExcelDataRead 
+{
+	public static void main (String[]args) throws EncryptedDocumentException, IOException
+	{
+		
+		//Step-1:get the data from Excel and print in console first
+		
+		FileInputStream fis = new FileInputStream(".//ExcelFolder/Excel.xlsx");
+		Workbook wb = WorkbookFactory.create(fis);
+		Sheet sh=wb.getSheet("Sheet1");
+		Row rw = sh.getRow(1);
+		Cell cl = rw.getCell(1);
+		String data = cl.getStringCellValue();
+		System.out.println("The data is :"+data);
+	
+	}
+}

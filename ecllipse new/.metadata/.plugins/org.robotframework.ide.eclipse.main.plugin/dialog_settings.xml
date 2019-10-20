@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.robotframework.ide.project.editor.activePage.RobotProjectAnkur">
+		<item value="GeneralProjectConfigurationEditorPart" key="activePage"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./RobotProjectAnkur/MyFirstProg.robot">
+		<item value="" key="activePage"/>
+	</section>
+	<section name="problemPreferences">
+		<item value="true" key="IMPORT"/>
+		<item value="true" key="RUNTIME"/>
+	</section>
+	<section name="org.robotframework.ide.tableditor.activePage./RobotProject/Exmp1.robot">
+		<item value="" key="activePage"/>
+	</section>
+</section>

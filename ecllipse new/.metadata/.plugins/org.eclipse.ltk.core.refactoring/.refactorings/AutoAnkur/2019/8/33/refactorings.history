@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DriverAnkur&apos; to &apos;String/src&apos;&#x0D;&#x0A;- Original project: &apos;AutoAnkur&apos;&#x0D;&#x0A;- Destination element: &apos;String/src&apos;&#x0D;&#x0A;- Original element: &apos;DriverAnkur&apos;" description="Copy folder" destination="=String/src" element1="DriverAnkur" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565603311408" units="0" version="1.0"/>
+</session>

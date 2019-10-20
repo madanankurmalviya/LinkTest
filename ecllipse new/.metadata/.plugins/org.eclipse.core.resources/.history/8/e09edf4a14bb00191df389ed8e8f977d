@@ -1,0 +1,11 @@
+package ExcelFetchData;
+
+public class CompareTwoColAdd 
+{
+
+	public static void main(String[] args)
+	{
+		FileInputStream fis = new FileInputStream("./Excel/Sheet2.xlsx")
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3032" started-at="2019-09-26T08:58:56Z" finished-at="2019-09-26T08:58:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3032" started-at="2019-09-26T08:58:56Z" finished-at="2019-09-26T08:58:59Z">
+      <class name="com.employee.testcases.TC02_post_Employee_details">
+        <test-method status="PASS" signature="postEmpSetup()[pri:0, instance:com.employee.testcases.TC02_post_Employee_details@7d417077]" name="postEmpSetup" is-config="true" duration-ms="3012" started-at="2019-09-26T14:28:56Z" finished-at="2019-09-26T14:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postEmpSetup -->
+        <test-method status="PASS" signature="checkStatus()[pri:0, instance:com.employee.testcases.TC02_post_Employee_details@7d417077]" name="checkStatus" duration-ms="5" started-at="2019-09-26T14:28:59Z" finished-at="2019-09-26T14:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method status="PASS" signature="printEmpdetails()[pri:0, instance:com.employee.testcases.TC02_post_Employee_details@7d417077]" name="printEmpdetails" duration-ms="1" started-at="2019-09-26T14:28:59Z" finished-at="2019-09-26T14:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printEmpdetails -->
+      </class> <!-- com.employee.testcases.TC02_post_Employee_details -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+package Testing;
+
+public class ExcelProjectOne 
+{
+	static 
+	{
+		System.setProperty("wedriver.chrome.driver", ".//DriverAnkur/chromedriver.exe");
+	}
+
+	public static void main(String[] args) 
+	
+	{
+
+	}
+
+}
